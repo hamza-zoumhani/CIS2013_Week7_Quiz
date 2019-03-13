@@ -25,6 +25,8 @@ int main(){
 	
 	while(!infile.eof()){
 		char next;
+		infile.get(next);
+		
 		cCount++;
 		
 		switch(next){
@@ -49,7 +51,7 @@ int main(){
 		}
 		
 	}
-	
+	infile.close();
 	cout << "Total character count: " << cCount << endl;
 	cout << "number of: " << endl;
 	cout << "	A: " << A << endl;
