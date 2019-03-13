@@ -52,7 +52,7 @@ int main(){
 	}
 	infile.close();
 	cout << "Total character count: " << cCount << endl;
-	cout << "number of: " << endl;
+	cout << "Number of: " << endl;
 	cout << "	A: " << A << endl;
 	cout << "	F: " << F << endl;
 	cout << "	a: " << a << endl;
