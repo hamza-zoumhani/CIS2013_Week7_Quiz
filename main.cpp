@@ -18,18 +18,44 @@ int main(){
 	
 	infile.open("info.dat");
 	
-	infile.open("junk.txt");
 	if(infile.fail()){
 		cout << "Failed!\n";
 		exit(1);
 	}
 	
 	while(!infile.eof()){
+		char next;
+		cCount++;
 		
+		switch(next){
+			case 'A':
+				A++;
+			break;
+				
+			case 'F':
+				F++;
+			break;
+				
+			case 'a':
+				a++;
+			break;
+				
+			case 'b':
+				b++;
+			break;
+				
+			default:
+			break;
+		}
+		
+	}
 	
-	
-	
-	
-	
+	cout << "Total character count: " << cCount << endl;
+	cout << "number of: " << endl;
+	cout << "	A: " << A << endl;
+	cout << "	F: " << F << endl;
+	cout << "	a: " << a << endl;
+	cout << "	b: " << b << endl;
+		
 	return 0;
 }
