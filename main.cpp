@@ -46,8 +46,7 @@ int main(){
 				b++;
 			break;
 				
-			default:
-			break;
+			
 		}
 		
 	}
