@@ -8,7 +8,6 @@ using namespace std;
 
 int main(){
 	ifstream infile;
-	ofstream outfile;
 	
 	int cCount=0;
 	int A=0;
